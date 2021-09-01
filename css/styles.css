@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+title{
+    font-size: 175%;
+  }
+  body {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  h4{
+    font-size: 125%;
+  }
+  
+  h1 {
+    margin-bottom: 2px;
+    font-weight: bold;
+    text-align: center;
+  }
+  section {
+    border: 1px solid black;
+    margin-right: 1px;
+    padding: 1px;
+    position: relative;
+  }
+  div {
+    padding: 5px;
+  }
+  .hrd4 {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    float: right;
+    margin:0px 0px 10px 0px;
+  
+  }
+  p {
+    clear: both;
+    padding:10px;
+    margin: 0px;
+    font-style: italic;
+  }
+  #section1 {
+    background-color:mistyrose;
+    margin-bottom: 15px;
+  
+  }
+  #section2 {
+    background-color:navajowhite;
+    margin-bottom: 15px;
+  
+  }
+  #section3 {
+    background-color:plum;
+    margin-bottom: 15px;
+  
+  }
+  #hdr1 {
+    background-color:bisque;
+  }
+  #hdr2 {
+    background-color:dimgray;
+  }
+  #hdr3 {
+    background-color: limegreen;
+  }
+  
+  .row{
+    width: 100%;
+  }
+  
+  /********** Desktop **********/
+  @media (min-width: 992px) {
+  .col-lg-4 {
+      float: left;
+      width: 33.33%;
+    }
+  
+  }
+  
+  /********** iPad **********/
+  @media (min-width: 767px) and (max-width: 991px) {
+     .col-md-6 ,.col-md-12 {
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 766px) {
+    .col-xs-12 {
+      width: 100%;
+      float: left;
+    }
+}
